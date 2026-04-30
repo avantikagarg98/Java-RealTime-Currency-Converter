@@ -1,23 +1,34 @@
-# Currency Converter
+👤 Author
+Developed by Avantika Garg
 
-A Java CLI application that converts currencies using live exchange rates 
-from the [Frankfurter API](https://www.frankfurter.dev/).
+✨ Features
+Real-time Market Rates: Fetches live data via secure REST API integration for high accuracy.
 
-## Features
-- Live exchange rates with no API key required
-- Conversion history saved locally between sessions
-- Input validation and error handling
+Persistent Conversion History: Automatically saves your transaction history locally, allowing you to track past conversions even after restarting the app.
 
-## Requirements
-- Java 17+
-- Maven
+Robust Error Handling: Advanced input validation and network timeout management for a smooth user experience.
 
-## How to run
+No Manual Configuration: Ready to use out of the box with automated data fetching.
+
+🛠️ Technologies Used
+Java 17+: Core logic and Object-Oriented programming.
+
+Maven: For dependency management and project build.
+
+Jackson (JSON Parsing): To efficiently process real-time data from external API providers.
+
+REST API: Global exchange rate data source.
+
+🚀 How to Run
+Clone the repository:
 1. Clone the repository
 2. Run `mvn compile` then `mvn exec:java -Dexec.mainClass="BasicConverter"`
+git clone [https://github.com/avantikagarg98/Java-RealTime-Currency-Converter.git](https://github.com/avantikagarg98/Java-RealTime-Currency-Converter.git)
 
-## Technologies
-- Java
-- Maven
-- Jackson (JSON parsing)
-- Frankfurter API
+Compile the project:
+mvn compile
+
+Execute the application:
+mvn exec:java -Dexec.mainClass="BasicConverter"
+
+
